@@ -1,0 +1,4 @@
+yarn sequelize db:create
+
+yarn sequelize migration:create --name=create-users   cria a migration, e o arquivo.js para depois executar
+yarn sequelize db:migrate 

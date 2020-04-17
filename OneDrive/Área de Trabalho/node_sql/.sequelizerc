@@ -1,0 +1,10 @@
+//tem que converter para js
+
+const path = require('path');
+
+module.exports = {
+    config: path.resolve(__dirname /*diretorio raiz*/, 'src', 'config', 'database.js'),
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations'), // onde serão criadas as migrations
+};
+
+//arquivo de configuração de caminhos para usar com banco de dados e sequelize
